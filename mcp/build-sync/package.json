@@ -1,0 +1,25 @@
+{
+  "name": "build-sync",
+  "version": "1.0.0",
+  "description": "Pessoa build log MCP server",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "type": "commonjs",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "dotenv": "^17.4.2",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "^26.0.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^6.0.3"
+  }
+}

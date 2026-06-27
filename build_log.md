@@ -35,3 +35,28 @@ project before opening any agent chat.
 - Implement append_build_entry as the single tool
 - Connect MCP server to Claude Code in VS Code
 - Write and configure the four agent system prompts in the Claude project
+
+## Sprint MCP — Build Sync Server — 27 June 2026
+
+### Completed
+- Scaffolded MCP server package
+- Implemented append_build_entry tool
+- Compiled TypeScript successfully
+
+### Files changed
+- mcp/build-sync/src/index.ts
+- mcp/build-sync/src/tools/append-build-entry.ts
+
+### Architecture decisions made
+- Single tool MCP server, no external API dependencies
+- Local file write only, manual upload to Claude project for agent sync
+
+### Open questions
+- None
+
+### Blockers
+- None
+
+### Next planned
+- Connect MCP server to Claude Code in VS Code
+- Run live end-to-end test

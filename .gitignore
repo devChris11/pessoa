@@ -141,3 +141,8 @@ dist
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 .vite/
+
+
+# MCP build directories
+mcp/build-sync/dist/
+mcp/build-sync/node_modules/
